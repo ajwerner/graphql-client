@@ -23,6 +23,8 @@ pub mod normalization;
 mod query;
 mod type_qualifiers;
 
+pub use syn;
+
 #[cfg(test)]
 mod tests;
 
